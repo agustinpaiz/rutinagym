@@ -1,0 +1,150 @@
+<!-- <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Formulario js</title>
+  <link rel="stylesheet" href="./estilos.css">
+
+
+</head>
+<body> -->
+<!DOCTYPE html>
+<html lang"es">
+  <head>
+    <meta charset="utf-8">
+    <title>Crea tu rutina</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <!-- <script src="miarchivo.js"></script> -->
+  </head>
+
+
+  <body>
+<form class ="pure-form pure-form-aligned">
+  <h1>Crea tu propia rutina!</h1>
+	<hr >
+
+    <!-- Texto-->
+  <div class ="div1">
+  <div class="form-group">
+      <label class="col-md-4 control-label">Nombre de la rutina</label>  
+      <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+          <input id="routineName"  name="name"
+placeholder="sentadillas" class="input1"  type="text" required>
+        </div>
+      </div>
+  </div>
+  <br/>
+
+      <!-- Text area -->
+
+      <div class="form-group">
+      <label class="col-md-4 control-label">Descripción de la rutina</label>
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+              <textarea id="description" class="form-control" name="comment" placeholder="En esta rutina se trabaja... " cols="30" rows="5" required ></textarea>
+      </div>
+      </div>
+      </div>
+      <br/>
+
+      <!-- Imagen-->
+
+      <div class="form-group">
+      <label for=" nuestroinput">Ahora una imagen</label>  
+      <input type="file" name="file" id="file" class="inputfile" />
+      <label for="file">Elegir un archivo</label>
+        </div>
+        <br/>
+      <!-- Seleccion -->
+     
+      <div class="form-group">
+      <label class="col-md-4 control-label">Escoge los ejercicios ...</label>
+        <div class="col-md-4 selectContainer">
+        <div class="input-group">
+        <select  id = "selector" class="form-control selectpicker"> 
+          <option value="0">pullover</option>
+          <option value="1">siting twists</option>
+          <option value="2">butterfly sit-ups</option>
+          <option value="3">crunch kicks</option>
+          <option value="4">raised leg circles</option>
+          <option value="5"> raised leg hold</option>
+          <option value="6" >rest</option>
+          <option value="7" >high knees</option>
+          <option value="8" >butt kicks</option>
+          <option value="9" >jumping lunges</option>
+          <option value="10" >toe tap hops</option>
+          <option value="11" >half jacks</option>
+          <option value="12" >jump squats</option>
+          <option value="13" >wall sit</option>
+          <option value="14" >sentadillas</option>
+          <option value="15">sentadillas con salto</option>
+          <option value="16" >sentadillas búlgaras</option>
+          <option value="17" >sentadillas búlgaras con salto</option>
+          <option value="18" >knee strikes</option>
+          <option value="19" >palm strikes</option>
+          <option value="20" >lunge push strikes</option>
+          <option value="21" >combo hop heel click + palm strike</option>
+          <option value="22" >push-ups</option>
+          <option value="23">cross chops</option>
+          <option value="24" >plank hold</option>
+          <option value="25" >shoulder taps</option>
+          <option value="26" >jumping jacks</option>
+          <option value="27" >side-to-side lunges</option>
+          <option value="28" >squats</option>
+          <option value="29" >climbers</option>
+          <option value="31" >calf raises</option>
+          <option value="32" >calf raise hold</option>
+          <option value="33" >combo knee strike + elbow strike</option>
+          <option value="34" >knee to elbow crunches</option>
+          <option value="35" >get-ups</option>
+          <option value="36" >one legged bridges</option>
+          <option value="37" >front leg extensions</option>
+          <option value="38" >arabesque penchée</option>
+          <option value="39" >grand plié in first position</option>
+          <option value="40" >rond de jambe en l'air</option>
+          <option value="41" >grand plié in second position</option>
+          <option value="42" >suaté</option>
+          <option value="43" >knee-to-elbows</option>
+          <option value="44" >side-to-side chops</option>
+          <option value="45" >side leg raises</option>
+
+        </select>
+          <p>
+            <select id = "selector2" class="form-control selectpicker selectList">
+				<option value="0">reps</option>
+          <option value="1">seconds</option>
+			</select>
+			<input id="repsOrSeconds" value="1" class="input2"  type="number" required min="1" max= "1000">
+             <button type="button" class="button" style="vertical-align:middle" onclick="addExercise()" >Agregar</button>
+          </p>
+					<br></br>
+					      <label class="col-md-4 control-label">Usted ha selecionado los siguientes ejercicos :</label>
+						<hr >
+							 <ol id ="Exercises" type="1">
+							</ol> 
+						<hr >
+      </div>
+      </div>
+      </div>
+      <br/>
+      <br/>
+         <button class="button" style="vertical-align:middle" disabled>Enviar</button>
+		         <button class="button" style="vertical-align:middle" disabled>Restablecer</button>
+    <p></p>
+        </div>
+      </div>
+    <p></p>
+        <p></p>
+  </div>
+</form>
+  <script src="miarchivo.js"></script>
+</body>
+</html>
+
+
+  <!-- <script  src="./miarchivo.js"></script>
+
+</body>
+</html> -->

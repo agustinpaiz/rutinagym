@@ -1,0 +1,195 @@
+html, body {
+  height: 100%;
+  padding: 2%;
+  margin: 0;
+  background-color: #f4511e;
+  background-size: cover;
+  }
+  body * {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  font-size: 14px;
+  color: black;
+  line-height: 22px;
+}
+form{
+display: inline-block;
+max-width: 700px;
+box-sizing: border-box;
+padding: 30px 25px;
+background-color:white;
+border-radius: 40px;
+margin: 40px 0;
+left: 50%;
+}
+  #send {
+  width: 20px;
+}
+  h1 {
+    color :#f4511e;
+  font-size: 30px;
+}
+
+textarea {
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+*{
+  text-align : center
+}
+label{
+   color :#ff7d4a;
+}
+
+option{
+  border-top: 55%;
+  border-style : solid ;
+  border-color : black;
+color : white;
+  background-color : #f4511e;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #f4511e;
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0 9px #999;	
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.input1{
+      outline: none;
+        background: white;
+        color: #f4511e;
+       border: 2px solid #f4511e;
+      line-height: 0;
+      font-size: 17px;
+      width: 100%;
+      display: block;
+      box-sizing: border-box;
+      padding: 5px 10px;
+      border-radius: 60px;
+      letter-spacing: 0.01em;
+}
+.input1:focus {
+        background:#fa774d;
+        color: white;
+}
+.input2{
+      outline: none;
+        background: white;
+        color: #f4511e;
+       border: 2px solid #f4511e;
+      line-height: 0;
+      font-size: 17px;
+      width: 20%;
+      box-sizing: border-box;
+      padding: 5px 10px;
+      border-radius: 60px;
+      letter-spacing: 0.01em;
+	margin-left : 12px;
+}
+.input2:focus{
+        background:#fa774d;
+        color: white;
+}
+
+textarea{
+  outline: none;
+        background: white;
+        color: #f4511e;
+       border: 2px solid #f4511e;
+      font-size: 17px;
+      padding: 10px 15px;
+      border-radius: 15px;
+      letter-spacing: 0.01em;
+			width: 80%;
+			height: 50%;
+}
+textarea:focus{
+        background: #fa774d;
+        color: white;
+}
+
+input[type="file"] {
+ width: 0.1px;
+ height: 0.1px;
+ opacity: 0;
+ overflow: hidden;
+ position: absolute;
+ z-index: -1;
+ }
+label[for="file"] {
+ font-size: 14px;
+ font-weight: 600;
+ color: #fff;
+ background-color: #f4511e;
+ display: inline-block;
+ transition: all .5s;
+ cursor: pointer;
+ padding: 15px 40px !important;
+ text-transform: uppercase;
+ width: fit-content;
+ text-align: center;
+}
+.inputfile + label:hover {
+    background-color: red;
+}
+
+select{
+   background-color : #f4511e;
+}
+
+select:after {
+  text-align : left;
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+ol {
+	text-align : left;
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+	padding-left:0; 
+	list-style-position:inside;
+}
+li{
+	color : #f4511e;
+	display: list-item;
+}
+.selectList{
+	position : relative ;
+	left : 5px;
+}
+
+hr{
+	color :  #f4511e;
+}
+
+ /* Style buttons */
+.btn {
+  background-color: red; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 1px 5px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
